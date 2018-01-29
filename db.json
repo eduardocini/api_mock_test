@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "id": 0,
+      "Title": "Guardians of the Galaxy Vol. 2",
+      "Year": 2017,
+      "Language": "English",
+      "Ratings": [
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Type": "movie",
+      "Production": "Walt Disney Pictures",
+      "Website": "https://marvel.com/guardians",
+      "Response": true
+    },
+    {
+      "Title": "Guardians of the Galaxy Vol. 3",
+      "Year": 2018,
+      "Language": "English",
+      "Ratings": [
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "99/100"
+        }
+      ],
+      "Type": "movie",
+      "Production": "Walt Disney Pictures",
+      "Website": "https://marvel.com/guardians2",
+      "Response": true,
+      "id": 1
+    }
+  ],
+  "actors": [
+    {
+      "id": 0,
+      "first_name": "John",
+        "last_name": "Smith",
+        "phone": "219-839-2819"
+    }
+  ]
+}
