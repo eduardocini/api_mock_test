@@ -1,6 +1,7 @@
 # api_mock_test
 
-  Resources
+---
+  * Resources
   http://localhost:3000/employer
   http://localhost:3000/company
 
@@ -13,3 +14,5 @@
 
   Home
   http://localhost:3000
+
+  ---
