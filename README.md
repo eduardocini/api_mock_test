@@ -6,13 +6,22 @@
   * http://localhost:3000/company
 
   ### Other routes
-  * /v1/company/:id -> /company/:id
-  * /v1/company/ -> /company/
-  * /v1/company?_page=:pg&_limit=:lt -> /company?_page=:pg&_limit=:lt
-  * /v1/employer/:id -> /employer/:id
-  * /v1/employer/ -> /employer/
+  ```
+  /v1/company/:id -> /company/:id
+  /v1/company/ -> /company/
+  /v1/company?_page=:pg&_limit=:lt -> /company?_page=:pg&_limit=:lt
+  /v1/employer/:id -> /employer/:id
+  /v1/employer/ -> /employer/
+  ```
 
   ### Home
   * http://localhost:3000
  
   ---
+  ### Singular routes
+    ```
+    GET    /v1/:resource/:id
+    POST   /v1/:resource/:id
+    PUT    /v1/:resource/:id
+    PATCH  /v1/:resource/:id
+    ```
