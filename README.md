@@ -19,9 +19,9 @@
  
   ---
   ### Singular routes
-    ```
-    GET    /v1/:resource/:id
-    POST   /v1/:resource/:id
-    PUT    /v1/:resource/:id
-    PATCH  /v1/:resource/:id
-    ```
+  ```
+  GET    /v1/:resource/:id
+  POST   /v1/:resource/:id
+  PUT    /v1/:resource/:id
+  PATCH  /v1/:resource/:id
+  ```
