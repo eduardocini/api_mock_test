@@ -12,8 +12,8 @@
   ---
   ### Routes
   ```
+  POST   /:resource/
   GET    /:resource/:id
-  POST   /:resource/:id
   PUT    /:resource/:id
   PATCH  /:resource/:id
   ```
@@ -29,8 +29,8 @@
 
   ### Custom routes
   ```
+  POST   /v1/:resource/
   GET    /v1/:resource/:id
-  POST   /v1/:resource/:id
   PUT    /v1/:resource/:id
   PATCH  /v1/:resource/:id
   ```
