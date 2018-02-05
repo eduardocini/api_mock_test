@@ -18,7 +18,7 @@
   * http://localhost:3000
  
   ---
-  ### Singular routes
+  ### Routes
   ```
   GET    /v1/:resource/:id
   POST   /v1/:resource/:id
