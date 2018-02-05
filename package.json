@@ -1,0 +1,24 @@
+{
+  "name": "api_mock_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server db.json --routes routes.jso"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardocini/api_mock_test.git"
+  },
+  "author": "Eduardo Cini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardocini/api_mock_test/issues"
+  },
+  "homepage": "https://github.com/eduardocini/api_mock_test#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.12.1"
+  }
+}
