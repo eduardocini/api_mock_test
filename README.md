@@ -5,7 +5,20 @@
   * http://localhost:3000/employer
   * http://localhost:3000/company
 
-  ### Other routes
+
+  ### Home
+  * http://localhost:3000
+ 
+  ---
+  ### Routes
+  ```
+  GET    /:resource/:id
+  POST   /:resource/:id
+  PUT    /:resource/:id
+  PATCH  /:resource/:id
+  ```
+  
+  ### Customizing Routes
   ```
   /v1/company/:id -> /company/:id
   /v1/company/ -> /company/
@@ -14,11 +27,7 @@
   /v1/employer/ -> /employer/
   ```
 
-  ### Home
-  * http://localhost:3000
- 
-  ---
-  ### Routes
+  ### Custom routes
   ```
   GET    /v1/:resource/:id
   POST   /v1/:resource/:id
