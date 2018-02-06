@@ -2,7 +2,7 @@
 
 ---
   ### Resources
-  * http://localhost:3000/employer
+  * http://localhost:3000/employee
   * http://localhost:3000/company
 
 
@@ -23,8 +23,8 @@
   /v1/company/:id -> /company/:id
   /v1/company/ -> /company/
   /v1/company?_page=:pg&_limit=:lt -> /company?_page=:pg&_limit=:lt
-  /v1/employer/:id -> /employer/:id
-  /v1/employer/ -> /employer/
+  /v1/employee/:id -> /employee/:id
+  /v1/employee/ -> /employee/
   ```
 
   ### Custom routes

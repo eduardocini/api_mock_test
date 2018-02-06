@@ -1,286 +1,84 @@
 {
-  "employer": [
-    {
+  "employee": [{
       "id": 1,
-      "firstName": "Halle",
-      "lastName": "Gulgowski",
-      "job": "Future Response Supervisor",
-      "email": "Stanford70@hotmail.com",
-      "phoneNumber": "1-588-141-0852 x363"
+      "firstName": "Oleta",
+      "lastName": "Kilback",
+      "job": "Forward Operations Representative",
+      "email": "Max.Lueilwitz23@gmail.com",
+      "phoneNumber": "(197) 705-6834 x0696",
+      "allocated": true
     },
     {
       "id": 2,
-      "firstName": "Tabitha",
-      "lastName": "Runte",
-      "job": "Human Markets Director",
-      "email": "Jevon_Reichert@gmail.com",
-      "phoneNumber": "1-668-404-3785"
+      "firstName": "Angelina",
+      "lastName": "Aufderhar",
+      "job": "Senior Group Administrator",
+      "email": "Monica.Rath@gmail.com",
+      "phoneNumber": "1-104-798-2641 x581",
+      "allocated": true
     },
     {
       "id": 3,
-      "firstName": "Abbey",
-      "lastName": "Yost",
-      "job": "Dynamic Interactions Executive",
-      "email": "Gretchen.Hand56@hotmail.com",
-      "phoneNumber": "301.727.3882 x06008"
+      "firstName": "Aida",
+      "lastName": "Lemke",
+      "job": "Legacy Mobility Associate",
+      "email": "Janelle.Ledner@yahoo.com",
+      "phoneNumber": "769.434.4565",
+      "allocated": false
     },
     {
       "id": 4,
-      "firstName": "Rachelle",
-      "lastName": "Jenkins",
-      "job": "Regional Applications Engineer",
-      "email": "Hilma12@gmail.com",
-      "phoneNumber": "1-429-867-3674"
+      "firstName": "Estell",
+      "lastName": "Crona",
+      "job": "Senior Intranet Developer",
+      "email": "Gracie.Corkery@yahoo.com",
+      "phoneNumber": "1-116-783-3258 x4187",
+      "allocated": false
     },
     {
       "id": 5,
-      "firstName": "Bernita",
-      "lastName": "Ratke",
-      "job": "Investor Metrics Analyst",
-      "email": "Victor57@gmail.com",
-      "phoneNumber": "390.955.1888 x0227"
-    },
-    {
-      "id": 6,
-      "firstName": "Pat",
-      "lastName": "Gottlieb",
-      "job": "Regional Branding Producer",
-      "email": "Eldon_Bayer@yahoo.com",
-      "phoneNumber": "(896) 525-1598"
-    },
-    {
-      "id": 7,
-      "firstName": "Brando",
-      "lastName": "Lang",
-      "job": "Dynamic Creative Officer",
-      "email": "Freida.Stamm83@hotmail.com",
-      "phoneNumber": "(369) 942-4864"
-    },
-    {
-      "id": 8,
-      "firstName": "Manuel",
-      "lastName": "Bins",
-      "job": "Internal Operations Analyst",
-      "email": "Aimee.Graham3@gmail.com",
-      "phoneNumber": "153.698.8101 x278"
-    },
-    {
-      "id": 9,
-      "firstName": "Lizeth",
-      "lastName": "Schumm",
-      "job": "Legacy Creative Architect",
-      "email": "Lucious.Schamberger@hotmail.com",
-      "phoneNumber": "820.443.5296"
-    },
-    {
-      "id": 10,
-      "firstName": "Emmanuelle",
-      "lastName": "Lang",
-      "job": "Human Security Officer",
-      "email": "Samara.Lindgren@yahoo.com",
-      "phoneNumber": "969.093.7151"
-    },
-    {
-      "id": 11,
-      "firstName": "Pablo",
-      "lastName": "Herman",
-      "job": "Legacy Identity Planner",
-      "email": "Humberto_Wolff97@yahoo.com",
-      "phoneNumber": "1-239-889-5697 x8236"
-    },
-    {
-      "id": 12,
-      "firstName": "Rosalee",
-      "lastName": "Larkin",
-      "job": "Customer Interactions Associate",
-      "email": "Herminio45@yahoo.com",
-      "phoneNumber": "806-336-7378"
-    },
-    {
-      "id": 13,
-      "firstName": "Adriana",
-      "lastName": "Senger",
-      "job": "Global Creative Architect",
-      "email": "Abdul.Mueller@hotmail.com",
-      "phoneNumber": "(736) 665-7984 x9186"
-    },
-    {
-      "id": 14,
-      "firstName": "Tessie",
-      "lastName": "Brekke",
-      "job": "Senior Operations Developer",
-      "email": "Michaela.Sporer54@yahoo.com",
-      "phoneNumber": "(941) 211-5968"
-    },
-    {
-      "id": 15,
-      "firstName": "Zachariah",
-      "lastName": "Rippin",
-      "job": "Senior Integration Consultant",
-      "email": "Bernard.Hettinger21@gmail.com",
-      "phoneNumber": "(970) 098-4853"
-    },
-    {
-      "id": 16,
-      "firstName": "Audreanne",
-      "lastName": "Schmeler",
-      "job": "Central Infrastructure Administrator",
-      "email": "Bertha.Deckow51@yahoo.com",
-      "phoneNumber": "1-645-029-8336 x2099"
-    },
-    {
-      "id": 17,
-      "firstName": "Al",
-      "lastName": "Berge",
-      "job": "Lead Integration Liaison",
-      "email": "Fredy.Bergnaum53@yahoo.com",
-      "phoneNumber": "(129) 572-9136 x272"
-    },
-    {
-      "id": 18,
-      "firstName": "Watson",
-      "lastName": "Nolan",
-      "job": "International Web Producer",
-      "email": "Arielle.Treutel97@yahoo.com",
-      "phoneNumber": "1-312-674-9366 x998"
-    },
-    {
-      "id": 19,
-      "firstName": "Bradly",
-      "lastName": "Effertz",
-      "job": "Central Implementation Architect",
-      "email": "Dana99@yahoo.com",
-      "phoneNumber": "1-579-877-6128"
-    },
-    {
-      "id": 20,
-      "firstName": "Casper",
-      "lastName": "Shanahan",
-      "job": "National Implementation Manager",
-      "email": "Israel72@hotmail.com",
-      "phoneNumber": "(028) 480-2301"
+      "firstName": "Ana",
+      "lastName": "Kunde",
+      "job": "Direct Configuration Architect",
+      "email": "Stephen_Dickens11@hotmail.com",
+      "phoneNumber": "(081) 494-4244",
+      "allocated": true
     }
   ],
-  "company": [
-    {
+  "company": [{
       "id": 1,
-      "companyName": "Mayert - Kilback",
-      "address": "South Georgia and the South Sandwich Islands",
-      "country": "Cote d'Ivoire"
+      "companyName": "Bins and Sons",
+      "address": "790 Howell Park",
+      "country": "Guadeloupe",
+      "state": "MA"
     },
     {
       "id": 2,
-      "companyName": "Hoeger Group",
-      "address": "Aruba",
-      "country": "Kenya"
+      "companyName": "Quigley Group",
+      "address": "8871 Broderick Lights",
+      "country": "Rwanda",
+      "state": "CO"
     },
     {
       "id": 3,
-      "companyName": "Zieme, McGlynn and Roberts",
-      "address": "Turks and Caicos Islands",
-      "country": "Kyrgyz Republic"
+      "companyName": "Rosenbaum Group",
+      "address": "662 Bednar Lakes",
+      "country": "India",
+      "state": "WV"
     },
     {
       "id": 4,
-      "companyName": "Pacocha Group",
-      "address": "Thailand",
-      "country": "Egypt"
+      "companyName": "Lang, Streich and Hermann",
+      "address": "93561 Hillard Route",
+      "country": "France",
+      "state": "OR"
     },
     {
       "id": 5,
-      "companyName": "Schmitt Inc",
-      "address": "Angola",
-      "country": "Vanuatu"
-    },
-    {
-      "id": 6,
-      "companyName": "Emard - Nicolas",
-      "address": "Djibouti",
-      "country": "Vietnam"
-    },
-    {
-      "id": 7,
-      "companyName": "Reichel LLC",
-      "address": "Aruba",
-      "country": "Bolivia"
-    },
-    {
-      "id": 8,
-      "companyName": "Stehr and Sons",
-      "address": "Ghana",
-      "country": "Saint Martin"
-    },
-    {
-      "id": 9,
-      "companyName": "Olson and Sons",
-      "address": "Mayotte",
-      "country": "Antarctica (the territory South of 60 deg S)"
-    },
-    {
-      "id": 10,
-      "companyName": "Sporer, Abshire and Shields",
-      "address": "Myanmar",
-      "country": "Kyrgyz Republic"
-    },
-    {
-      "id": 11,
-      "companyName": "Davis, Davis and Schiller",
-      "address": "Cote d'Ivoire",
-      "country": "Lesotho"
-    },
-    {
-      "id": 12,
-      "companyName": "Greenholt, Beatty and McGlynn",
-      "address": "Nicaragua",
-      "country": "Thailand"
-    },
-    {
-      "id": 13,
-      "companyName": "Hermann - Grimes",
-      "address": "Uganda",
-      "country": "Namibia"
-    },
-    {
-      "id": 14,
-      "companyName": "Jacobs, D'Amore and Koch",
-      "address": "Tonga",
-      "country": "Poland"
-    },
-    {
-      "id": 15,
-      "companyName": "Schinner and Sons",
-      "address": "Moldova",
-      "country": "Morocco"
-    },
-    {
-      "id": 16,
-      "companyName": "Bode LLC",
-      "address": "Saint Barthelemy",
-      "country": "Portugal"
-    },
-    {
-      "id": 17,
-      "companyName": "Schaefer Group",
-      "address": "Nepal",
-      "country": "Netherlands Antilles"
-    },
-    {
-      "id": 18,
-      "companyName": "Rippin, Hickle and King",
-      "address": "Turkmenistan",
-      "country": "Qatar"
-    },
-    {
-      "id": 19,
-      "companyName": "Ernser - Stokes",
-      "address": "Mauritania",
-      "country": "Cocos (Keeling) Islands"
-    },
-    {
-      "id": 20,
-      "companyName": "Murazik Inc",
-      "address": "Vanuatu",
-      "country": "Luxembourg"
+      "companyName": "Grady LLC",
+      "address": "982 Steuber Vista",
+      "country": "Namibia",
+      "state": "VT"
     }
   ]
 }
