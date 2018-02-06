@@ -20,6 +20,7 @@ const newEmployee = (payload) => {
   return new Promise((resolve, reject) => {
     request(URL)
       .post(EMPLOYEE_PATH)
+      .set('Content-Type', /json/)
       .send(payload)
       .expect('Content-Type', /json/)
       .end((err, res) => {
@@ -33,6 +34,7 @@ const newCompany = (payload) => {
   return new Promise((resolve, reject) => {
     request(URL)
       .post(COMPANY_PATH)
+      .set('Content-Type', /json/)
       .send(payload)
       .expect('Content-Type', /json/)
       .end((err, res) => {
