@@ -43,7 +43,7 @@ const newCompany = (payload) => {
 }
 
 describe('API Mock Test using json-server', () => {
-  xit('Register a new employee', (done) => {
+  it('Register a new employee', (done) => {
     let payload = {
       firstName: faker.name.firstName(),
       lastName: faker.name.lastName(),
