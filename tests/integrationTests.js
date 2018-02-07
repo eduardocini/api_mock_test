@@ -20,7 +20,6 @@ const newEmployee = (payload) => {
   return new Promise((resolve, reject) => {
     request(URL)
       .post(EMPLOYEE_PATH)
-      .set('Content-Type', /json/)
       .send(payload)
       .expect('Content-Type', /json/)
       .end((err, res) => {
@@ -34,7 +33,6 @@ const newCompany = (payload) => {
   return new Promise((resolve, reject) => {
     request(URL)
       .post(COMPANY_PATH)
-      .set('Content-Type', /json/)
       .send(payload)
       .expect('Content-Type', /json/)
       .end((err, res) => {
@@ -45,7 +43,7 @@ const newCompany = (payload) => {
 }
 
 describe('API Mock Test using json-server', () => {
-  it('Register a new employee', (done) => {
+  it('POST - Register a new employee', (done) => {
     let payload = {
       firstName: faker.name.firstName(),
       lastName: faker.name.lastName(),
@@ -63,7 +61,7 @@ describe('API Mock Test using json-server', () => {
       .catch(done);
   });
 
-  it('Register a new company', (done) => {
+  it('POST - Register a new company', (done) => {
     let payload = {
       companyName: faker.company.companyName(),
       address: faker.address.streetAddress(),
@@ -72,11 +70,32 @@ describe('API Mock Test using json-server', () => {
     };
     newCompany(payload)
       .then((res) => {
-        console.log(JSON.stringify(res.body, "  ", 2))
         expect(res.status).to.be.equal(201);
         joiAssert(res.body, companySchema);
         done()
       })
       .catch(done);
+  });
+
+  it('GET - company', (done) => {
+    request(URL)
+      .get(COMPANY_PATH)
+      .expect('Content-Type', /json/)
+      .end((err, res) => {
+        let i = res.body.length - 1;
+        joiAssert(res.body[i], companySchema);
+        done()
+      });
+  });
+
+  it('GET - employee', (done) => {
+    request(URL)
+      .get(EMPLOYEE_PATH)
+      .expect('Content-Type', /json/)
+      .end((err, res) => {
+        let i = res.body.length - 1;
+        joiAssert(res.body[i], employeeSchema);
+        done()
+      });
   });
 });
